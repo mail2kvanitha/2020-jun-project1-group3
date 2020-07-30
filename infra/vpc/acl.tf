@@ -1,5 +1,4 @@
 # Network ACL
-# 2 NACLs public/private (ALLOW ALL is not permitted)
 resource "aws_network_acl" "acl" {
 	vpc_id = aws_vpc.vpc.id
 	subnet_ids = [aws_subnet.public_subnet1.id,aws_subnet.public_subnet2.id]
