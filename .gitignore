@@ -7,3 +7,6 @@
 
 # _backend files
 _backend.tf
+
+# MacOS files
+.DS_Store
