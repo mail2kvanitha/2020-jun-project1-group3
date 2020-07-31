@@ -84,13 +84,13 @@ In progress - to be updated
 #### __6.ROUTE TABLE AND ASSOCIATIONS CREATION__
 In progress - to be updated
 
-#### __7. APPLICATION LOAD BALANCER CREATION
+#### __7. APPLICATION LOAD BALANCER CREATION__
 In progress - to be updated
 
 #### __8. DOCKER IMAGE CREATION AND DOCKER COMPOSE__
 In progress - to be updated
 
-#### __9. ECS REGISTRY CREATION
+#### __9. ECS REGISTRY CREATION__
 In progress - to be updated
 
 #### __10. RDS AURORA MYSQL DB CREATION__
@@ -99,9 +99,9 @@ In progress - to be updated
 #### __11. ECS CLUSTER CREATION__
 In progress - to be updated
 
-#### __12. EFS CREATION
+#### __12. EFS CREATION__
 
-
+...
 
 
 ### __IMPROVEMENTS RECOMMENDED__
@@ -116,6 +116,7 @@ In progress - to be updated
 [WORDPRESS BEST PRACTISE] (https://aws.amazon.com/blogs/architecture/wordpress-best-practices-on-aws/)
 [AUTOMATING WORDPRESS] (https://medium.com/@beBrllnt/from-30-minutes-to-10-seconds-automating-wordpress-setup-5ff7526942c0)
 
+
 ### __TEAM MEMBERS:__
 Team Project Group3 has below geeks.
 
@@ -125,9 +126,12 @@ Team Project Group3 has below geeks.
           * VANITHA KALIYAPERUMAL
 
 ### ___LICENSE___
+
 [LICENSE](./LICENSE)
 
 ### __CONCLUSION__
+to be updated
+
 
 ### __BUSINESS SIGN-OFF__
 
