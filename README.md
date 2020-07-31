@@ -23,6 +23,9 @@ The CEO wanted to migarte the On-premesis Web Application to AWS cloud and below
 * The infrastructure needs to be reproducible and version controlled in case the CEO decides to expand the business to other parts of the world (consider infra as code).
 * There must be an easy and secure way of developing, with fast feedback (consider CI/CD practices or at least automation scripts).
 
+### __PROJECT TIMELINE__
+The pilot project is expected to be completed and reviewed by mid August 2020, and ready for demostration on **17th August 2020**
+
 ### __DELIVERABLES:__
 * A solution diagram containing all the components of the solution and explaining the data flow.
     ![Solution Diagram](./images/da-project1.png)
