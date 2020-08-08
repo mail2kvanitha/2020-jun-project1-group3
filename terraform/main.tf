@@ -20,6 +20,14 @@ module "rds_aurora" {
   rds_aurora_subnets = [for subnet in module.networking.private_subnets : subnet.id]
 }
 
+module "ssm" {
+  source                = "./modules/ssm"
+  rds_endpoint          = module.rds_aurora.rds_endpoint
+  rds_database_name     = module.rds_aurora.rds_database_name
+  rds_database_username = module.rds_aurora.rds_database_username
+  rds_database_password = module.rds_aurora.rds_database_password
+}
+
 #module "loadbalancer" {
 #source = "./modules/loadbalancer"
 #project       = "grp3wordpress"
@@ -34,7 +42,10 @@ module "ecr" {
 }
 
 module "ecs" {
-  source      = "./modules/ecs"
-  vpc_id      = module.networking.vpc_id
-  subnets     = [for subnet in module.networking.private_subnets : subnet.id]
+  source           = "./modules/ecs"
+  vpc_id           = module.networking.vpc_id
+  efs_access_point = module.efs.efs_access_point_id
+  efs_id           = module.efs.efs_id
+  public_subnets   = [for subnet in module.networking.public_subnets : subnet.id]
+  private_subnets  = [for subnet in module.networking.private_subnets : subnet.id]
 }
